@@ -28,7 +28,8 @@ html {scroll-behavior: smooth;}
 .main_form {display:flex;justify-content:center;font-size:0;overflow:hidden;max-width:2543px;margin:0 auto;height:1605px;background:url(../img/main_form_bg.png) 50% 0 no-repeat;}
 
 .main_form form {margin-top:550px;}
-.main_form .form_input input {width:1196px;border:5px solid #020507;border-radius:30px;margin-left:85px;height:87px;box-sizing:border-box;}
+.main_form .form_input input {width:1196px;border:5px solid #020507;border-radius:30px;margin-left:85px;height:87px;box-sizing:border-box;text-align:center;font-size:45px;color:#a6dced;font-weight:bold;}
+
 .main_form .form_agree {margin-top:77px;margin-left:145px;}
 .main_form .form_agree .agree_item input[type="checkbox"] {display:none;}
 .main_form .form_agree .agree_item label {display:inline-block;line-height:60px;font-size:23px;vertical-align:middle;cursor:pointer;}
