@@ -14,6 +14,11 @@
         <div class="main_visual_logo"><img src="resources/img/main_visual_logo.webp"></div>
         <div class="main_visual_characters"><img src="resources/img/main_visual_characters.webp"></div>
         <div class="main_visual_text"><a href="#Form"><img src="resources/img/main_visual_text.webp"></a></div>
+        <div class="main_visual_btns">
+            <a href="https://store.steampowered.com/app/1976440/CounterSide" target="_blank"><img src="resources/img/btn_steam.png"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.studiobside.CounterSide" target="_blank"><img src="resources/img/btn_playstore.png"></a>
+            <a href="https://apps.apple.com/us/app/counterside/id1309394370" target="_blank"><img src="resources/img/btn_appstore.png"></a>
+        </div>
         <div class="main_visual_holo"><a href="#Form" class="holo_arrow">Scroll Down</a></div>
     </div>
     <div class="main_nav">
@@ -29,7 +34,7 @@
         <form>
             <div class="form_input"><input type="text" placeholder="Email"></div>
             <div class="form_agree">
-                <div class="agree_item"><input type="checkbox" id="agree_1" checked><label for="agree_1"><span>I have read and acknowledge the <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>.</span></label></div>
+                <div class="agree_item"><input type="checkbox" id="agree_1" checked><label for="agree_1"><span>I have read and acknowledge the <a href="https://counterside.com/?page_id=859" target="_blank">Privacy Policy</a> and <a href="https://counterside.com/?page_id=854" target="_blank">Terms of Service</a>.</span></label></div>
                 <div class="agree_item"><input type="checkbox" id="agree_2"><label for="agree_2"><span>I agree to receive the news and promotional offers by email.</span></label></div>
             </div>
             <div class="form_btn">
@@ -74,6 +79,26 @@
         </div>
     </div>
 </div>
+
+<div class="main_aside_left">
+    <div class="aside_items">
+        <a class="aside_item sb" href="https://counterside.com/?page_id=860" target="_blank"></a>
+        <a class="aside_item twitter" href="https://twitter.com/CounterSideGBL" target="_blank"></a>
+        <a class="aside_item facebook" href="https://www.facebook.com/CounterSideGlobal/" target="_blank"></a>
+        <a class="aside_item youtube" href="https://www.youtube.com/channel/UCTRWICcttt_mMqCvY7_NZPA" target="_blank"></a>
+        <a class="aside_item steam" href="https://store.steampowered.com/app/1976440/CounterSide/" target="_blank"></a>
+        <a class="aside_item discode" href="https://discord.com/invite/countersideglobal" target="_blank"></a>
+    </div>
+</div>
+
+<div class="main_aside_right">
+    <div class="aside_items">
+        <div class="aside_item movie"></div>
+        <div class="aside_item music"></div>
+        <a class="aside_item top" href="#"></a>
+    </div>
+</div>
+
 <div class="media_pop media1">
     <div class="pop_body">
         <div class="pop_media_img"></div>
@@ -124,6 +149,39 @@
         <div class="pop_btn_go"><img src="resources/img/btn_pop_go.webp"></div>
     </div>
 </div>
+<script src="resources/js/jquery.min.js"></script>
+<script>
+$('.pop_close').click(function() {
+    $('.media_pop').removeClass('on');
+    $('body').css("overflow","auto");
+});
 
+$('.media_item.media1').click(function() {
+    $('.media_pop.media1').addClass('on');
+    $('body').css("overflow","hidden");
+});
+$('.media_item.media2').click(function() {
+    $('.media_pop.media2').addClass('on');
+    $('body').css("overflow","hidden");
+});
+$('.media_item.media3').click(function() {
+    $('.media_pop.media3').addClass('on');
+    $('body').css("overflow","hidden");
+});
+$('.media_item.media4').click(function() {
+    $('.media_pop.media4').addClass('on');
+    $('body').css("overflow","hidden");
+});
+$('.media_item.media5').click(function() {
+    $('.media_pop.media5').addClass('on');
+    $('body').css("overflow","hidden");
+});
+
+$('.aside_item.music').click(function() {
+    $(this).toggleClass('off');
+});
+
+
+</script>
 </body>
 </html>
