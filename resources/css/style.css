@@ -85,12 +85,20 @@ html {scroll-behavior: smooth;font-family:'NanumSquareRound';}
 .media_pop.on {display:block;}
 .media_pop:after {content:"";position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.8);z-index:11;}
 
-.media_pop .pop_body {position:fixed;top:0;left:0;right:0;bottom:0;background-repeat:repeat-x;background-position:0 50%;z-index:12;}
-.media_pop .pop_body {background-image:url(../img/pop_bg_media.png);}
+.media_pop .pop_body {position:fixed;top:0;left:0;right:0;bottom:0;background-repeat:repeat-x;background-position:50% 50%;z-index:12;}
 .media_pop .pop_close {position:absolute;top:50%;left:50%;margin:-370px 0 0 600px;background-color:transparent;border:0 none;padding:0;cursor:pointer;}
-.media_pop .pop_ctn {position:absolute;top:50%;left:50%;width:945px;height:290px;margin: -131px 0 0 -323px;padding:30px 55px 30px 55px;box-sizing:border-box;font-size:23px;color:#666;overflow:auto;}
+.media_pop .pop_ctn {position:absolute;top:50%;left:50%;width:945px;height:290px;margin: -131px 0 0 -323px;padding:30px 55px 30px 55px;box-sizing:border-box;font-size:23px;line-height:33px;color:#666;overflow:auto;}
 .media_pop .pop_btn_go {position:absolute;top:50%;left:50%;margin:120px 0 0 350px;cursor:pointer;}
 
+.media_pop.media1 .pop_body {background-image:url(../img/pop_bg_media1.png);}
+.media_pop.media2 .pop_body {background-image:url(../img/pop_bg_media2.png);}
+.media_pop.media3 .pop_body {background-image:url(../img/pop_bg_media3.png);}
+.media_pop.media4 .pop_body {background-image:url(../img/pop_bg_media4.png);}
+.media_pop.media5 .pop_body {background-image:url(../img/pop_bg_media5.png);}
 
 .media_pop .pop_media_img {position:absolute;top:0;left:50%;bottom:0;max-height:100vh;background-position:0 50%;background-repeat:no-repeat;}
-.media_pop .pop_media_img.media1 {width:1781px;height:1263px;background-image:url(../img/pop_media_1.png);margin-left: -1141px;}
+.media_pop.media1 .pop_media_img {width:1781px;height:1263px;background-image:url(../img/pop_media_1.png);margin-left:-1141px;}
+.media_pop.media2 .pop_media_img {width:1803px;height:1338px;background-image:url(../img/pop_media_2.png);margin-left:-1163px;}
+.media_pop.media3 .pop_media_img {width:1869px;height:1349px;background-image:url(../img/pop_media_3.png);margin-left:-1231px;}
+.media_pop.media4 .pop_media_img {width:1778px;height:1517px;background-image:url(../img/pop_media_4.png);margin-left:-1138px;}
+.media_pop.media5 .pop_media_img {width:1606px;height:1301px;background-image:url(../img/pop_media_5.png);margin-left:-966px;}
