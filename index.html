@@ -168,7 +168,6 @@
     </div>
 </div>
 <script src="resources/js/jquery.min.js"></script>
-<script src="resources/js/howler.min.js"></script>
 <script>
 $(window).scroll(function(){
   let gnb = $('.main_nav')
@@ -183,14 +182,7 @@ $(window).scroll(function(){
 });
 $(document).ready(function() {
 
-var sound = new Howl({
-src: ['resources/audio/bgm.mp3'],
-volume: 1.0,
-autoplay: true,
-onend : () => {
-console.log('Finished!');
-}
-});
+const myAudio = $('#myAudio'); // Audio객체 취득
 
 });
 
