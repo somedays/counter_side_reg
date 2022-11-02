@@ -221,7 +221,7 @@ html {scroll-behavior: smooth;font-family:'NanumSquareRound';}
     .media_pop .pop_close img {width:30px;}
     .media_pop .pop_body {background:none !important;}
     .media_pop .pop_bg {display:none;}
-    .media_pop .pop_media_img {width:100% !important;height:100vh !important;margin-left:0 !important;left:0;right:0;top:0;bottom:0;background-size:100%;z-index:3;background-position:50% 50%;}
+    .media_pop .pop_media_img {position:fixed;width:100% !important;height:100vh !important;margin-left:0 !important;left:0;right:0;top:0;bottom:0;background-size:100%;z-index:3;background-position:50% 50%;}
     .media_pop.media1 .pop_media_img {background-image:url(../img/m/pop_media_1.webp);}
     .media_pop.media2 .pop_media_img {background-image:url(../img/m/pop_media_2.webp);}
     .media_pop.media3 .pop_media_img {background-image:url(../img/m/pop_media_3.webp);}
