@@ -69,11 +69,11 @@ html {scroll-behavior: smooth;font-family:'NanumSquareRound';}
 .media_item.media3 {background-image:url(../img/media_item_3.webp);}
 .media_item.media4 {background-image:url(../img/media_item_4.webp);}
 .media_item.media5 {background-image:url(../img/media_item_5.webp);}
-.media_item.media1:hover {background-image:url(../img/media_item_1_o.webp);animation:blur .3s;}
-.media_item.media2:hover {background-image:url(../img/media_item_2_o.webp);animation:blur .3s;}
-.media_item.media3:hover {background-image:url(../img/media_item_3_o.webp);animation:blur .3s;}
-.media_item.media4:hover {background-image:url(../img/media_item_4_o.webp);animation:blur .3s;}
-.media_item.media5:hover {background-image:url(../img/media_item_5_o.webp);animation:blur .3s;}
+.media_item.media1:hover {background-image:url(../img/media_item_1_o.webp);}/*animation:blur .3s;*/
+.media_item.media2:hover {background-image:url(../img/media_item_2_o.webp);}/*animation:blur .3s;*/
+.media_item.media3:hover {background-image:url(../img/media_item_3_o.webp);}/*animation:blur .3s;*/
+.media_item.media4:hover {background-image:url(../img/media_item_4_o.webp);}/*animation:blur .3s;*/
+.media_item.media5:hover {background-image:url(../img/media_item_5_o.webp);}/*animation:blur .3s;*/
 .main_media .media_top,
 .main_media .media_bottom {display:none;}
 @keyframes blur {
